@@ -1,7 +1,21 @@
-# Create a README.md
+# Meteorological Conversion Tool
 
-If you need help with `Markdown`, check out [The Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)!
+This Python script converts between common meteorological variables:
 
-What should a good README.md look like? Check out these [guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+- **Temperature**: Celsius (`C`), Fahrenheit (`F`), Kelvin (`K`)
+- **Pressure**: Millibars (`mb`), Hectopascals (`hPa`), Pascals (`Pa`), Atmospheres (`atm`)
 
-Did you add an open source software license?
+It provides an interactive command-line interface where the user can enter a value and select the input and output units.
+
+---
+
+### Features
+
+- Convert between Celsius, Fahrenheit, and Kelvin.
+- Convert between mb, hPa, Pa, and atm.
+
+---
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
